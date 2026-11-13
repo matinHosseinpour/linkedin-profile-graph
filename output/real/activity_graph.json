@@ -1,0 +1,381 @@
+{
+  "metadata": {
+    "generated_at": "2026-11-13T09:23:05+00:00",
+    "input_profiles": 10,
+    "selected_profiles": 10,
+    "organization": null,
+    "selection": "all inputs",
+    "synthetic_profiles": 0,
+    "dataset_kind": "observed",
+    "jaccard_threshold": 0.25,
+    "layout_seed": 42,
+    "affinity_edges": 2,
+    "observed_activity_edges": 14,
+    "connected_components": 8,
+    "layout_algorithm": "circular",
+    "communities": 3,
+    "missing_skills_profiles": 0,
+    "is_linkedin_connection_graph": false,
+    "is_organizational_hierarchy": false,
+    "graph_type": "observed_activity",
+    "graph_title": "Observed activity graph",
+    "graph_note": "Arrows follow visible repost/comment/reaction links within this sample.",
+    "community_method": "weakly connected components",
+    "legend_label": "Component",
+    "unique_directed_pairs": 11
+  },
+  "directed": true,
+  "nodes": [
+    {
+      "id": "clementdelangue",
+      "name": "Clem Delangue 🤗",
+      "headline": "Co-founder & CEO at Hugging Face",
+      "url": "https://www.linkedin.com/in/clementdelangue",
+      "skills": [
+        "entrepreneurship",
+        "start-ups"
+      ],
+      "is_synthetic": false,
+      "betweenness_centrality": 0.006944444444444444,
+      "strength": 5,
+      "community": 1,
+      "in_degree_centrality": 0.1111111111111111,
+      "out_degree_centrality": 0.3333333333333333
+    },
+    {
+      "id": "julienchaumond",
+      "name": "Julien Chaumond",
+      "headline": "He/Him",
+      "url": "https://www.linkedin.com/in/julienchaumond",
+      "skills": [
+        "affiliate marketing",
+        "e-commerce"
+      ],
+      "is_synthetic": false,
+      "betweenness_centrality": 0.0,
+      "strength": 5,
+      "community": 1,
+      "in_degree_centrality": 0.3333333333333333,
+      "out_degree_centrality": 0.0
+    },
+    {
+      "id": "thom-wolf",
+      "name": "Thomas Wolf",
+      "headline": "He/Him",
+      "url": "https://www.linkedin.com/in/thom-wolf",
+      "skills": [
+        "machine learning",
+        "research"
+      ],
+      "is_synthetic": false,
+      "betweenness_centrality": 0.020833333333333332,
+      "strength": 6,
+      "community": 1,
+      "in_degree_centrality": 0.4444444444444444,
+      "out_degree_centrality": 0.1111111111111111
+    },
+    {
+      "id": "lysandredebut",
+      "name": "Lysandre Debut",
+      "headline": "COSO - Chief Open Source Officer at Hugging Face",
+      "url": "https://www.linkedin.com/in/lysandredebut",
+      "skills": [
+        "machine learning",
+        "python"
+      ],
+      "is_synthetic": false,
+      "betweenness_centrality": 0.0,
+      "strength": 1,
+      "community": 1,
+      "in_degree_centrality": 0.1111111111111111,
+      "out_degree_centrality": 0.0
+    },
+    {
+      "id": "ben-burtenshaw",
+      "name": "Ben Burtenshaw",
+      "headline": "Community Education in AI @ Hugging Face",
+      "url": "https://www.linkedin.com/in/ben-burtenshaw",
+      "skills": [
+        "cloud infrastructure",
+        "project management"
+      ],
+      "is_synthetic": false,
+      "betweenness_centrality": 0.0,
+      "strength": 0,
+      "community": 0,
+      "in_degree_centrality": 0.0,
+      "out_degree_centrality": 0.0
+    },
+    {
+      "id": "mkdouglas",
+      "name": "Matthew Douglas",
+      "headline": "He/Him",
+      "url": "https://www.linkedin.com/in/mkdouglas",
+      "skills": [
+        "c++",
+        "pytorch"
+      ],
+      "is_synthetic": false,
+      "betweenness_centrality": 0.0,
+      "strength": 2,
+      "community": 1,
+      "in_degree_centrality": 0.0,
+      "out_degree_centrality": 0.2222222222222222
+    },
+    {
+      "id": "remifabre",
+      "name": "Remi Fabre",
+      "headline": "Lead Robotics Engineer @ Pollen Robotics × Hugging Face · Reachy Mini · Open-source robotics & AI integrations · Educator @ Bordeaux INP",
+      "url": "https://www.linkedin.com/in/remifabre",
+      "skills": [
+        "c (programming language)",
+        "python (programming language)"
+      ],
+      "is_synthetic": false,
+      "betweenness_centrality": 0.0,
+      "strength": 3,
+      "community": 1,
+      "in_degree_centrality": 0.2222222222222222,
+      "out_degree_centrality": 0.1111111111111111
+    },
+    {
+      "id": "chuntelee",
+      "name": "Chun Te Lee",
+      "headline": "product design @ Hugging Face",
+      "url": "https://www.linkedin.com/in/chuntelee",
+      "skills": [
+        "typography",
+        "user experience (ux)"
+      ],
+      "is_synthetic": false,
+      "betweenness_centrality": 0.0,
+      "strength": 5,
+      "community": 1,
+      "in_degree_centrality": 0.0,
+      "out_degree_centrality": 0.3333333333333333
+    },
+    {
+      "id": "gittospenelope-product-management-growth-bilingual",
+      "name": "Pénélope GITTOS",
+      "headline": "Academia Hub @HuggingFace 🤗",
+      "url": "https://www.linkedin.com/in/gittospenelope-product-management-growth-bilingual",
+      "skills": [
+        "product management",
+        "project management"
+      ],
+      "is_synthetic": false,
+      "betweenness_centrality": 0.0,
+      "strength": 0,
+      "community": 2,
+      "in_degree_centrality": 0.0,
+      "out_degree_centrality": 0.0
+    },
+    {
+      "id": "dana-aubakirova-ai",
+      "name": "Dana Aubakirova",
+      "headline": "ML Research Engineer 🤗 @ Hugging Face",
+      "url": "https://www.linkedin.com/in/dana-aubakirova-ai",
+      "skills": [
+        "image processing",
+        "mlops"
+      ],
+      "is_synthetic": false,
+      "betweenness_centrality": 0.0,
+      "strength": 1,
+      "community": 1,
+      "in_degree_centrality": 0.0,
+      "out_degree_centrality": 0.1111111111111111
+    }
+  ],
+  "edges": [
+    {
+      "source": "clementdelangue",
+      "target": "thom-wolf",
+      "weight": 2,
+      "evidence": [
+        {
+          "source": "clementdelangue",
+          "target": "thom-wolf",
+          "relation": "repost",
+          "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7524437658106830850",
+          "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7524437658106830850",
+          "evidence": "html:activity"
+        },
+        {
+          "source": "clementdelangue",
+          "target": "thom-wolf",
+          "relation": "repost",
+          "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7521805493791625217",
+          "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7521805493791625217",
+          "evidence": "html:activity"
+        }
+      ]
+    },
+    {
+      "source": "clementdelangue",
+      "target": "remifabre",
+      "weight": 1,
+      "evidence": [
+        {
+          "source": "clementdelangue",
+          "target": "remifabre",
+          "relation": "repost",
+          "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7521805620774293504",
+          "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7521805620774293504",
+          "evidence": "html:activity"
+        }
+      ]
+    },
+    {
+      "source": "clementdelangue",
+      "target": "julienchaumond",
+      "weight": 1,
+      "evidence": [
+        {
+          "source": "clementdelangue",
+          "target": "julienchaumond",
+          "relation": "repost",
+          "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7520730737193500673",
+          "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7520730737193500673",
+          "evidence": "html:activity"
+        }
+      ]
+    },
+    {
+      "source": "thom-wolf",
+      "target": "remifabre",
+      "weight": 1,
+      "evidence": [
+        {
+          "source": "thom-wolf",
+          "target": "remifabre",
+          "relation": "repost",
+          "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7521680024949743616",
+          "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7521680024949743616",
+          "evidence": "html:activity"
+        }
+      ]
+    },
+    {
+      "source": "mkdouglas",
+      "target": "julienchaumond",
+      "weight": 1,
+      "evidence": [
+        {
+          "source": "mkdouglas",
+          "target": "julienchaumond",
+          "relation": "repost",
+          "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7456902127748161536",
+          "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7456902127748161536",
+          "evidence": "html:activity"
+        }
+      ]
+    },
+    {
+      "source": "mkdouglas",
+      "target": "lysandredebut",
+      "weight": 1,
+      "evidence": [
+        {
+          "source": "mkdouglas",
+          "target": "lysandredebut",
+          "relation": "repost",
+          "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7391194610393309184",
+          "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7391194610393309184",
+          "evidence": "html:activity"
+        }
+      ]
+    },
+    {
+      "source": "remifabre",
+      "target": "thom-wolf",
+      "weight": 1,
+      "evidence": [
+        {
+          "source": "remifabre",
+          "target": "thom-wolf",
+          "relation": "repost",
+          "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7521557302030725122",
+          "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7521557302030725122",
+          "evidence": "html:activity"
+        }
+      ]
+    },
+    {
+      "source": "chuntelee",
+      "target": "thom-wolf",
+      "weight": 1,
+      "evidence": [
+        {
+          "source": "chuntelee",
+          "target": "thom-wolf",
+          "relation": "repost",
+          "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7523901838174351360",
+          "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7523901838174351360",
+          "evidence": "html:activity"
+        }
+      ]
+    },
+    {
+      "source": "chuntelee",
+      "target": "julienchaumond",
+      "weight": 3,
+      "evidence": [
+        {
+          "source": "chuntelee",
+          "target": "julienchaumond",
+          "relation": "repost",
+          "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7523633295692111872",
+          "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7523633295692111872",
+          "evidence": "html:activity"
+        },
+        {
+          "source": "chuntelee",
+          "target": "julienchaumond",
+          "relation": "repost",
+          "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7522776231558381569",
+          "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7522776231558381569",
+          "evidence": "html:activity"
+        },
+        {
+          "source": "chuntelee",
+          "target": "julienchaumond",
+          "relation": "repost",
+          "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7515532355969900544",
+          "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7515532355969900544",
+          "evidence": "html:activity"
+        }
+      ]
+    },
+    {
+      "source": "chuntelee",
+      "target": "clementdelangue",
+      "weight": 1,
+      "evidence": [
+        {
+          "source": "chuntelee",
+          "target": "clementdelangue",
+          "relation": "repost",
+          "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7515634091967320065",
+          "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7515634091967320065",
+          "evidence": "html:activity"
+        }
+      ]
+    },
+    {
+      "source": "dana-aubakirova-ai",
+      "target": "thom-wolf",
+      "weight": 1,
+      "evidence": [
+        {
+          "source": "dana-aubakirova-ai",
+          "target": "thom-wolf",
+          "relation": "repost",
+          "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7519309330215731200",
+          "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7519309330215731200",
+          "evidence": "html:activity"
+        }
+      ]
+    }
+  ]
+}

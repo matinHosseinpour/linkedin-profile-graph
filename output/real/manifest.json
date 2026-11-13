@@ -1,0 +1,72 @@
+[
+  {
+    "url": "https://www.linkedin.com/in/clementdelangue",
+    "path": "sources/clementdelangue.html",
+    "is_synthetic": false,
+    "source_kind": "existing_chrome_dom",
+    "collected_at": "2026-11-07T18:14:23.556Z"
+  },
+  {
+    "url": "https://www.linkedin.com/in/julienchaumond",
+    "path": "sources/julienchaumond.html",
+    "is_synthetic": false,
+    "source_kind": "existing_chrome_dom",
+    "collected_at": "2026-11-07T18:14:51.226Z"
+  },
+  {
+    "url": "https://www.linkedin.com/in/thom-wolf",
+    "path": "sources/thom-wolf.html",
+    "is_synthetic": false,
+    "source_kind": "existing_chrome_dom",
+    "collected_at": "2026-11-07T18:15:20.033Z"
+  },
+  {
+    "url": "https://www.linkedin.com/in/lysandredebut",
+    "path": "sources/lysandredebut.html",
+    "is_synthetic": false,
+    "source_kind": "existing_chrome_dom",
+    "collected_at": "2026-11-07T18:15:48.633Z"
+  },
+  {
+    "url": "https://www.linkedin.com/in/ben-burtenshaw",
+    "path": "sources/ben-burtenshaw.html",
+    "is_synthetic": false,
+    "source_kind": "existing_chrome_dom",
+    "collected_at": "2026-11-07T18:16:15.919Z"
+  },
+  {
+    "url": "https://www.linkedin.com/in/mkdouglas",
+    "path": "sources/mkdouglas.html",
+    "is_synthetic": false,
+    "source_kind": "existing_chrome_dom",
+    "collected_at": "2026-11-07T18:16:43.132Z"
+  },
+  {
+    "url": "https://www.linkedin.com/in/remifabre",
+    "path": "sources/remifabre.html",
+    "is_synthetic": false,
+    "source_kind": "existing_chrome_dom",
+    "collected_at": "2026-11-07T18:17:10.089Z"
+  },
+  {
+    "url": "https://www.linkedin.com/in/chuntelee",
+    "path": "sources/chuntelee.html",
+    "is_synthetic": false,
+    "source_kind": "existing_chrome_dom",
+    "collected_at": "2026-11-07T18:17:38.171Z"
+  },
+  {
+    "url": "https://www.linkedin.com/in/gittospenelope-product-management-growth-bilingual",
+    "path": "sources/gittospenelope-product-management-growth-bilingual.html",
+    "is_synthetic": false,
+    "source_kind": "existing_chrome_dom",
+    "collected_at": "2026-11-07T18:18:05.097Z"
+  },
+  {
+    "url": "https://www.linkedin.com/in/dana-aubakirova-ai",
+    "path": "sources/dana-aubakirova-ai.html",
+    "is_synthetic": false,
+    "source_kind": "existing_chrome_dom",
+    "collected_at": "2026-11-07T18:18:33.500Z"
+  }
+]

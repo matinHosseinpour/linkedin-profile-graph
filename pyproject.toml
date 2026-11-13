@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "linkedin-profile-graph"
+version = "1.0.0"
+description = "Evidence-aware public profile extraction and skill graph analysis"
+requires-python = ">=3.12"
+dependencies = [
+  "beautifulsoup4>=4.12,<5",
+  "requests>=2.32,<3",
+  "networkx>=3.4,<4",
+  "matplotlib>=3.9,<4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.8,<1"]
+
+[project.scripts]
+linkedin-graph = "linkedin_graph.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["linkedin_graph*"]
+
+[tool.setuptools.package-data]
+linkedin_graph = ["*.js", "*.html", "*.css"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

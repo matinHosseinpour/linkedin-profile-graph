@@ -1,0 +1,136 @@
+{
+  "directed": true,
+  "metadata": {
+    "generated_at": "2026-11-13T09:23:05+00:00",
+    "input_profiles": 10,
+    "selected_profiles": 10,
+    "organization": null,
+    "selection": "all inputs",
+    "synthetic_profiles": 0,
+    "dataset_kind": "observed",
+    "jaccard_threshold": 0.25,
+    "layout_seed": 42,
+    "affinity_edges": 2,
+    "observed_activity_edges": 14,
+    "connected_components": 8,
+    "layout_algorithm": "circular",
+    "communities": 8,
+    "missing_skills_profiles": 0,
+    "is_linkedin_connection_graph": false,
+    "is_organizational_hierarchy": false
+  },
+  "edges": [
+    {
+      "source": "clementdelangue",
+      "target": "thom-wolf",
+      "relation": "repost",
+      "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7524437658106830850",
+      "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7524437658106830850",
+      "evidence": "html:activity"
+    },
+    {
+      "source": "clementdelangue",
+      "target": "remifabre",
+      "relation": "repost",
+      "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7521805620774293504",
+      "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7521805620774293504",
+      "evidence": "html:activity"
+    },
+    {
+      "source": "clementdelangue",
+      "target": "thom-wolf",
+      "relation": "repost",
+      "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7521805493791625217",
+      "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7521805493791625217",
+      "evidence": "html:activity"
+    },
+    {
+      "source": "clementdelangue",
+      "target": "julienchaumond",
+      "relation": "repost",
+      "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7520730737193500673",
+      "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7520730737193500673",
+      "evidence": "html:activity"
+    },
+    {
+      "source": "thom-wolf",
+      "target": "remifabre",
+      "relation": "repost",
+      "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7521680024949743616",
+      "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7521680024949743616",
+      "evidence": "html:activity"
+    },
+    {
+      "source": "mkdouglas",
+      "target": "julienchaumond",
+      "relation": "repost",
+      "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7456902127748161536",
+      "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7456902127748161536",
+      "evidence": "html:activity"
+    },
+    {
+      "source": "mkdouglas",
+      "target": "lysandredebut",
+      "relation": "repost",
+      "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7391194610393309184",
+      "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7391194610393309184",
+      "evidence": "html:activity"
+    },
+    {
+      "source": "remifabre",
+      "target": "thom-wolf",
+      "relation": "repost",
+      "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7521557302030725122",
+      "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7521557302030725122",
+      "evidence": "html:activity"
+    },
+    {
+      "source": "chuntelee",
+      "target": "thom-wolf",
+      "relation": "repost",
+      "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7523901838174351360",
+      "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7523901838174351360",
+      "evidence": "html:activity"
+    },
+    {
+      "source": "chuntelee",
+      "target": "julienchaumond",
+      "relation": "repost",
+      "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7523633295692111872",
+      "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7523633295692111872",
+      "evidence": "html:activity"
+    },
+    {
+      "source": "chuntelee",
+      "target": "julienchaumond",
+      "relation": "repost",
+      "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7522776231558381569",
+      "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7522776231558381569",
+      "evidence": "html:activity"
+    },
+    {
+      "source": "chuntelee",
+      "target": "clementdelangue",
+      "relation": "repost",
+      "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7515634091967320065",
+      "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7515634091967320065",
+      "evidence": "html:activity"
+    },
+    {
+      "source": "chuntelee",
+      "target": "julienchaumond",
+      "relation": "repost",
+      "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7515532355969900544",
+      "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7515532355969900544",
+      "evidence": "html:activity"
+    },
+    {
+      "source": "dana-aubakirova-ai",
+      "target": "thom-wolf",
+      "relation": "repost",
+      "activity_id": "https://www.linkedin.com/feed/update/urn:li:activity:7519309330215731200",
+      "evidence_url": "https://www.linkedin.com/feed/update/urn:li:activity:7519309330215731200",
+      "evidence": "html:activity"
+    }
+  ]
+}

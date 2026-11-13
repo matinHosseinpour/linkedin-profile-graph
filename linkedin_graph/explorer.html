@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>اطلس ارتباطات | LinkedIn Explorer</title>
+  <style>/* EXPLORER_STYLE */</style>
+</head>
+<body>
+  <header class="masthead">
+    <div class="brand-mark" aria-hidden="true">in<span>↗</span></div>
+    <div class="brand"><div class="eyebrow">LINKEDIN · EVIDENCE EXPLORER</div><h1>اطلس ارتباطات حرفه‌ای</h1></div>
+    <div class="header-meta"><span id="dataset-label" class="badge"></span><span id="capture-date"></span></div>
+    <button id="export" class="secondary">دریافت داده‌های نما ↓</button>
+  </header>
+  <main>
+    <section class="intro"><div><h2>پشت هر ارتباط، یک روایت.</h2><p>روی افراد، پست‌ها و خطوط کلیک کنید؛ فعالیت و شواهد همان ارتباط را ببینید.</p></div><div class="offline"><span></span> فایل مستقل · قابل استفاده آفلاین</div></section>
+    <section id="metrics" class="metrics" aria-label="آمار داده‌های ثبت‌شده"></section>
+    <section class="workspace">
+      <div class="visual-column">
+        <div class="toolbar">
+          <div class="mode-tabs" role="tablist" aria-label="نوع گراف">
+            <button role="tab" data-mode="people" aria-selected="true">ارتباط افراد</button>
+            <button role="tab" data-mode="posts" aria-selected="false">افراد و پست‌ها</button>
+            <button role="tab" data-mode="skills" aria-selected="false">شباهت مهارت‌ها</button>
+          </div>
+          <div class="filters">
+            <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="نام، مهارت یا متن پست…" aria-label="جست‌وجو در افراد و پست‌ها"></label>
+            <label class="sr-only" for="person-filter">فیلتر فرد</label><select id="person-filter"><option value="">همهٔ افراد</option></select>
+            <label class="sr-only" for="kind-filter">نوع فعالیت</label><select id="kind-filter"><option value="">همهٔ فعالیت‌ها</option><option value="post">پست</option><option value="repost">بازنشر</option><option value="comment">نظر</option><option value="reaction">واکنش</option><option value="unknown">نوع نامشخص</option></select>
+            <button id="clear-filters" class="text-button">پاک کردن</button>
+          </div>
+        </div>
+        <div class="graph-heading"><div><h3 id="view-title"></h3><p id="view-description"></p></div><span id="view-count" class="count-pill" aria-live="polite"></span></div>
+        <div id="stage" class="stage">
+          <svg id="graph" xmlns="http://www.w3.org/2000/svg" role="group" aria-label="گراف تعاملی؛ گره‌ها و ارتباط‌ها با کلید Tab قابل انتخاب‌اند">
+            <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="context-stroke"/></marker></defs>
+            <g id="viewport"><g id="edge-layer"></g><g id="node-layer"></g></g>
+          </svg>
+          <div id="empty" class="empty" hidden><strong>نتیجه‌ای پیدا نشد</strong><p>فیلتر یا عبارت جست‌وجو را تغییر دهید.</p></div>
+          <div id="tooltip" class="tooltip" hidden></div>
+          <div class="graph-controls"><button id="zoom-in" aria-label="بزرگ‌نمایی">+</button><button id="zoom-out" aria-label="کوچک‌نمایی">−</button><button id="fit" aria-label="جا دادن کل گراف">⤢</button></div>
+          <div class="gesture-hint">کشیدن: جابه‌جایی · اسکرول: بزرگ‌نمایی · کلیک: جزئیات</div>
+        </div>
+        <div class="legend"><span><i class="person-dot"></i>فرد</span><span id="post-legend"><i class="post-dot"></i>پست</span><span><i class="edge-line"></i><span id="edge-legend">فعالیت مشاهده‌شده؛ جهت فلش از انجام‌دهنده به نویسنده</span></span></div>
+      </div>
+      <aside id="details" class="details" aria-label="جزئیات انتخاب" tabindex="-1"></aside>
+    </section>
+    <footer><strong>دربارهٔ داده‌ها</strong><span id="coverage-note"></span> ارتباط فعالیت و اشتراک مهارت، تأیید دوستی لینکدین یا همکاری واقعی نیست. تاریخ‌های نسبی مربوط به زمان ثبت صفحه‌اند.</footer>
+  </main>
+  <script id="explorer-data" type="application/json">EXPLORER_DATA</script>
+  <script>/* EXPLORER_SCRIPT */</script>
+</body>
+</html>

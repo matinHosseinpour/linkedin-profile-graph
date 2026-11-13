@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-11-13T09:23:05+00:00",
+  "requested": 10,
+  "saved": 10,
+  "acquisition_complete": true,
+  "profile_completeness_established": false,
+  "results": [
+    {
+      "url": "https://www.linkedin.com/in/clementdelangue",
+      "status": "saved",
+      "path": "sources/clementdelangue.html"
+    },
+    {
+      "url": "https://www.linkedin.com/in/julienchaumond",
+      "status": "saved",
+      "path": "sources/julienchaumond.html"
+    },
+    {
+      "url": "https://www.linkedin.com/in/thom-wolf",
+      "status": "saved",
+      "path": "sources/thom-wolf.html"
+    },
+    {
+      "url": "https://www.linkedin.com/in/lysandredebut",
+      "status": "saved",
+      "path": "sources/lysandredebut.html"
+    },
+    {
+      "url": "https://www.linkedin.com/in/ben-burtenshaw",
+      "status": "saved",
+      "path": "sources/ben-burtenshaw.html"
+    },
+    {
+      "url": "https://www.linkedin.com/in/mkdouglas",
+      "status": "saved",
+      "path": "sources/mkdouglas.html"
+    },
+    {
+      "url": "https://www.linkedin.com/in/remifabre",
+      "status": "saved",
+      "path": "sources/remifabre.html"
+    },
+    {
+      "url": "https://www.linkedin.com/in/chuntelee",
+      "status": "saved",
+      "path": "sources/chuntelee.html"
+    },
+    {
+      "url": "https://www.linkedin.com/in/gittospenelope-product-management-growth-bilingual",
+      "status": "saved",
+      "path": "sources/gittospenelope-product-management-growth-bilingual.html"
+    },
+    {
+      "url": "https://www.linkedin.com/in/dana-aubakirova-ai",
+      "status": "saved",
+      "path": "sources/dana-aubakirova-ai.html"
+    }
+  ]
+}

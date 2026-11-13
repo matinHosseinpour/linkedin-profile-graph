@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "generated_at": "2026-11-13T09:23:05+00:00",
+    "input_profiles": 10,
+    "selected_profiles": 10,
+    "organization": null,
+    "selection": "all inputs",
+    "synthetic_profiles": 0,
+    "dataset_kind": "observed",
+    "jaccard_threshold": 0.25,
+    "layout_seed": 42,
+    "affinity_edges": 2,
+    "observed_activity_edges": 14,
+    "connected_components": 8,
+    "layout_algorithm": "circular",
+    "communities": 8,
+    "missing_skills_profiles": 0,
+    "is_linkedin_connection_graph": false,
+    "is_organizational_hierarchy": false
+  },
+  "directed": false,
+  "nodes": [
+    {
+      "id": "ben-burtenshaw",
+      "name": "Ben Burtenshaw",
+      "headline": "Community Education in AI @ Hugging Face",
+      "url": "https://www.linkedin.com/in/ben-burtenshaw",
+      "skills": [
+        "cloud infrastructure",
+        "project management"
+      ],
+      "is_synthetic": false,
+      "degree_centrality": 0.1111111111111111,
+      "betweenness_centrality": 0.0,
+      "strength": 0.3333333333333333,
+      "community": 0
+    },
+    {
+      "id": "gittospenelope-product-management-growth-bilingual",
+      "name": "Pénélope GITTOS",
+      "headline": "Academia Hub @HuggingFace 🤗",
+      "url": "https://www.linkedin.com/in/gittospenelope-product-management-growth-bilingual",
+      "skills": [
+        "product management",
+        "project management"
+      ],
+      "is_synthetic": false,
+      "degree_centrality": 0.1111111111111111,
+      "betweenness_centrality": 0.0,
+      "strength": 0.3333333333333333,
+      "community": 0
+    },
+    {
+      "id": "lysandredebut",
+      "name": "Lysandre Debut",
+      "headline": "COSO - Chief Open Source Officer at Hugging Face",
+      "url": "https://www.linkedin.com/in/lysandredebut",
+      "skills": [
+        "machine learning",
+        "python"
+      ],
+      "is_synthetic": false,
+      "degree_centrality": 0.1111111111111111,
+      "betweenness_centrality": 0.0,
+      "strength": 0.3333333333333333,
+      "community": 1
+    },
+    {
+      "id": "thom-wolf",
+      "name": "Thomas Wolf",
+      "headline": "He/Him",
+      "url": "https://www.linkedin.com/in/thom-wolf",
+      "skills": [
+        "machine learning",
+        "research"
+      ],
+      "is_synthetic": false,
+      "degree_centrality": 0.1111111111111111,
+      "betweenness_centrality": 0.0,
+      "strength": 0.3333333333333333,
+      "community": 1
+    },
+    {
+      "id": "chuntelee",
+      "name": "Chun Te Lee",
+      "headline": "product design @ Hugging Face",
+      "url": "https://www.linkedin.com/in/chuntelee",
+      "skills": [
+        "typography",
+        "user experience (ux)"
+      ],
+      "is_synthetic": false,
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "strength": 0,
+      "community": 2
+    },
+    {
+      "id": "clementdelangue",
+      "name": "Clem Delangue 🤗",
+      "headline": "Co-founder & CEO at Hugging Face",
+      "url": "https://www.linkedin.com/in/clementdelangue",
+      "skills": [
+        "entrepreneurship",
+        "start-ups"
+      ],
+      "is_synthetic": false,
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "strength": 0,
+      "community": 3
+    },
+    {
+      "id": "dana-aubakirova-ai",
+      "name": "Dana Aubakirova",
+      "headline": "ML Research Engineer 🤗 @ Hugging Face",
+      "url": "https://www.linkedin.com/in/dana-aubakirova-ai",
+      "skills": [
+        "image processing",
+        "mlops"
+      ],
+      "is_synthetic": false,
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "strength": 0,
+      "community": 4
+    },
+    {
+      "id": "julienchaumond",
+      "name": "Julien Chaumond",
+      "headline": "He/Him",
+      "url": "https://www.linkedin.com/in/julienchaumond",
+      "skills": [
+        "affiliate marketing",
+        "e-commerce"
+      ],
+      "is_synthetic": false,
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "strength": 0,
+      "community": 5
+    },
+    {
+      "id": "mkdouglas",
+      "name": "Matthew Douglas",
+      "headline": "He/Him",
+      "url": "https://www.linkedin.com/in/mkdouglas",
+      "skills": [
+        "c++",
+        "pytorch"
+      ],
+      "is_synthetic": false,
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "strength": 0,
+      "community": 6
+    },
+    {
+      "id": "remifabre",
+      "name": "Remi Fabre",
+      "headline": "Lead Robotics Engineer @ Pollen Robotics × Hugging Face · Reachy Mini · Open-source robotics & AI integrations · Educator @ Bordeaux INP",
+      "url": "https://www.linkedin.com/in/remifabre",
+      "skills": [
+        "c (programming language)",
+        "python (programming language)"
+      ],
+      "is_synthetic": false,
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "strength": 0,
+      "community": 7
+    }
+  ],
+  "edges": [
+    {
+      "source": "thom-wolf",
+      "target": "lysandredebut",
+      "weight": 0.3333333333333333,
+      "shared_skills": [
+        "machine learning"
+      ],
+      "relation": "inferred_skill_affinity"
+    },
+    {
+      "source": "ben-burtenshaw",
+      "target": "gittospenelope-product-management-growth-bilingual",
+      "weight": 0.3333333333333333,
+      "shared_skills": [
+        "project management"
+      ],
+      "relation": "inferred_skill_affinity"
+    }
+  ]
+}
